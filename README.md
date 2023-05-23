@@ -15,6 +15,10 @@ go build -buildmode=c-shared -o golang/bin/lib-cqm-transformer.so golang/src/cqm
 
 ```sh
 mvn clean package
+```
+
+## 4. Run
+```sh
 java -jar target/java-go-1.0-SNAPSHOT-jar-with-dependencies.jar
 Java says: about to call Go ..
 Go says: adding 30 and 12
